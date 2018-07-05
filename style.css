@@ -1,19 +1,67 @@
-/*body {
-    background-image: url("images/mekong-green.png");
-    background-repeat: repeat;
+
+ /*Creating borders and adding color*/
+article, header, nav, section, aside, footer, .container{
+  border: 2px solid lightgrey;
+  padding: 10px;
+  margin: 5px;
+  font-family: "Helvetica", sans-serif;
+  color: #555555;
+  box-sizing: border-box;
 }
-*/
-p { font-family: "Helvetica"; text-align: center;}
-
-header {text-align: center; font-family: "Helvetica";}
-
-h2 { text-align: center; font-family: "Helvetica";}
-
-ul {text-align: center;}
-
-ul  {
- padding-left:0;   
+header{
+  border-color: salmon;
 }
+section{
+  border-color: plum;
+}
+footer{
+  border-color: darkmagenta;
+}
+aside {
+  border-color: orange;
+}
+article{
+  border-color: cornflowerblue;
+}
+nav {
+  border-color: seagreen;
+}
+
+/*Normal CSS*/
+
+@media(max-width: 1000px; min-width: 480px;)
+
+body{ max-width: 750px; margin: 0 auto; width: 100% }
+
+p { font-family: "PT Sans"; src:url(https://fonts.googleapis.com/css?family=PT+Sans); text-align: center; padding: 0px}
+
+header {text-align: center; font-family: "Helvetica"; color: black; margin: 40px; clear: both;}
+
+body nav {float: right; padding-left: 0;}
+
+aside {text-align: center; }
+
+
+nav ul li { display: inline-block;}
+
+nav ul {padding-left: 0px;}
+
+.icons {width: 20px; height: 20px;}
+
+.gallery-photos { width: 200px; height: 200px; border-radius: 100px; transition: all 0.4s;}
+
+.gallery-photos:hover {transform: scale(2); }
+
+h2 { text-align: center; font-family: "Helvetica"; color:#000000; font-size:default;}
+
+ul {text-align: center; list-style-type: none; padding-left:0;}
+
+
+
+#website-word {font-weight: bold;  text-decoration: underline; color:rgb(0,0,0);}
+
+/*#bottom {position: absolute;}*/
+
 
 
 .profile_photo { border-radius: 150px; width: 300px; height: 300px }
