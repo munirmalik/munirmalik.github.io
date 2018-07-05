@@ -1,6 +1,6 @@
 
  /*Creating borders and adding color*/
-article, header, nav, section, aside, footer, .container{
+/*article, header, nav, section, aside, footer, .container{
   border: 2px solid lightgrey;
   padding: 10px;
   margin: 5px;
@@ -26,6 +26,8 @@ article{
 nav {
   border-color: seagreen;
 }
+
+*/
 
 /*Normal CSS*/
 
